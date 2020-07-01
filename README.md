@@ -544,9 +544,9 @@ declare global {
 ```typescript
 function createGoods(value: number): { type: string } | undefined {
   if (value > 0.5) {
-    return { type: 'apple' }
+    return
   }
-  return
+  return { type: 'apple' }
 }
 
 const goods = createGoods(10)
