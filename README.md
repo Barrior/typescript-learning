@@ -543,7 +543,7 @@ declare global {
 
 ```typescript
 function createGoods(value: number): { type: string } | undefined {
-  if (value > 0.5) {
+  if (value < 5) {
     return
   }
   return { type: 'apple' }
