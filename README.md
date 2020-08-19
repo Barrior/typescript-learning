@@ -673,7 +673,7 @@ superEnum Grades {
 }
 
 
-// 第三种变体
+// 第三种变体（推荐）
 console.log(Grades.values())        // [2, 3, 4, 5]
 console.log(Grades.keys())          // ['silver', 'gold', 'pt', 'trial']
 console.log(Grades.silver)          // 2
