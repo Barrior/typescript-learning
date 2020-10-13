@@ -658,6 +658,8 @@ tsconfig-paths: npx ts-node -r tsconfig-paths/register src/index.ts
 
 ## SuperEnum vs Enum
 
+> suggestion: https://github.com/microsoft/TypeScript/issues/16464#issuecomment-707509931
+
 `Enum`:
 
 ![enum.png](./imgs/enum.png)
